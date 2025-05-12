@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,48 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: navajowhite;
+}
+.strickThrough {
+  text-decoration: line-through;
+}
+
+#root {
+  width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: blueviolet;
+  height: 80vh;
+  border: 2px solid red;
+}
+
+.App {
+  padding: 20px;
+}
+
+.addbtn {
+  margin-left: 10px;
+}
+
+.input {
+  height: 25px;
+}
+
+.addbtn {
+  height: 33px;
+  width: 60px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+ul li {
+  list-style-type: none;
 }
